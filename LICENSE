@@ -1,0 +1,32 @@
+MIT License
+
+Copyright (c) 2026 devereux
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+
+This license covers the Rocket Arena V2 code and files made for V2. It does not
+cover the following, which belong to their respective owners:
+
+- Rocket Arena: UT 1.60 (RocketArena.u, RocketArenaMedia.u, the maps, sounds
+  and original graphics) by the Rocket Arena team.
+- The fonts in deps/fonts: Bebas Neue (SIL Open Font License 1.1) and
+  Permanent Marker (Apache License 2.0). See the license files next to them.
+- Unreal Tournament, by Epic Games.

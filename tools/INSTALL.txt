@@ -1,0 +1,31 @@
+Rocket Arena V2 - server installation
+=====================================
+
+1. Copy everything in System/ to UnrealTournament/System/.
+   RocketArena.u and RocketArenaMedia.u are the original Rocket Arena: UT 1.60 files.
+   The RA maps need them. If the server already has a patched RocketArena.u, keep
+   that one instead; V2 works with both.
+
+2. Copy the maps (RocketArena-Maps zip) to UnrealTournament/Maps/, unless the
+   server already has them.
+
+3. Add to [Engine.GameEngine] in the server ini, in this order:
+     ServerPackages=RocketArenaMedia
+     ServerPackages=RocketArenaV2Media
+     ServerPackages=RocketArenaV2
+
+4. Start a map with the game type RocketArenaV2.RocketArenaGame, for example:
+     UCC server RA-Akuma?game=RocketArenaV2.RocketArenaGame
+
+   With InstaGib+ (replace InstaGibPlus_xxx with your IG+ package):
+     UCC server RA-Akuma?game=RocketArenaV2.RocketArenaGame?Mutator=InstaGibPlus_xxx.UTPure,InstaGibPlus_xxx.ST_Mutator?IGPlusSettings=ServerSettingsRA?IGPlusWeaponSettings=WeaponSettingsRA
+
+   For IG+, copy the sections you already use in InstaGibPlus.ini (for example
+   your TDM sections) to [ServerSettingsRA] and [WeaponSettingsRA], and set
+   bWarmup=False and bAutoPause=False in [ServerSettingsRA].
+
+5. Settings per arena (weapons, ammo, armor, best-of, damage) are in
+   RocketArenaV2.ini. They can also be changed in game: log in as admin and
+   press ADMIN in the RA menu.
+
+Players need nothing installed; everything downloads from the server.

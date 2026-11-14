@@ -1,0 +1,25 @@
+# Build copy of the UT engine (large, recreated by ./build.sh --setup)
+/build/
+
+# Local test server: engine copy, logs and inis with passwords
+/testserver/
+
+# Original 1.60 release files and exported original source
+/original/
+/RocketArenaUT*.umod
+/RocketArenaReadme.txt
+
+# Working files
+.planning/
+__pycache__/
+*.log
+
+# Release zips (uploaded to GitHub Releases, built by tools/make_release.py)
+/release/
+
+# Local working notes, design mockups and test helpers (not part of the project)
+/mockups/
+/tasks/
+/todo.md
+/setup-testserver.sh
+/tools/start_clients.ps1
