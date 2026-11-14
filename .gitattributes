@@ -1,0 +1,11 @@
+# Keep LF everywhere (bash scripts break with CRLF); binary game packages and images untouched.
+* text=auto eol=lf
+*.u binary
+*.utx binary
+*.uax binary
+*.unr binary
+*.umod binary
+*.png binary
+*.bmp binary
+*.ttf binary
+*.zip binary
